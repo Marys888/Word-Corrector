@@ -1,6 +1,6 @@
 package app;
 
-public class Correcter {
+public class Corrector {
     public String handleData(String[] strs) {
         StringBuilder stringBuilder = new StringBuilder();
         int count = 0;

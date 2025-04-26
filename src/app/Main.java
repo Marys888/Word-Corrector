@@ -3,10 +3,10 @@ package app;
 public class Main {
     public static void main(String[] args) {
         DataProvider dataProvider = new DataProvider();
-        Correcter correcter = new Correcter();
-        
+        Corrector corrector = new Corrector();
+
         String[] data = dataProvider.getData();
-        String correctedData = correcter.handleData(data);
+        String correctedData = corrector.handleData(data);
 
         getOutput(correctedData);
     }
