@@ -2,11 +2,9 @@ package app;
 
 public class Main {
     public static void main(String[] args) {
-        DataProvider dataProvider = new DataProvider();
-        Corrector corrector = new Corrector();
 
-        String[] data = dataProvider.getData();
-        String correctedData = corrector.handleData(data);
+        String[] data = new DataProvider().getData();
+        String correctedData = new Corrector().handleData(data);
 
         getOutput(correctedData);
     }
